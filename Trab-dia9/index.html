@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuário</title>
+
+    <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+   
+    <link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+  
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Perfil de Usuário</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="py-5">
+        <div class="container">
+            <div class="row">
+               
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            Informações do Perfil
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Nome do Usuário</h5>
+                            <p class="card-text">Email: usuario@example.com</p>
+                            <p class="card-text">Telefone: (00) 12345-6789</p>
+                           
+                        </div>
+                    </div>
+                </div>
+
+              
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Editar Perfil
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label">Nome</label>
+                                    <input type="text" class="form-control" id="nome" placeholder="Nome">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label">Telefone</label>
+                                    <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+                                </div>
+                               
+                                <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer py-4 fixed-bottom">
+        <div class="container text-center">
+            <span class="text-muted"><h6>Enzo Molossi e João Binotto</h6></span>
+        </div>
+    </footer>
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
